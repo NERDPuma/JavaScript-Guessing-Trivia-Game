@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!--Luis K. Gonzalez 5/12/2022-->
+<html lang="en">
+<head>
+    <title>Final Project WEB 114</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="finalproject.css">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>JavaScript Guessing/Trivia Game</h1>
+                <p id="user"></p>
+                <p>There will be a series of random questions about JavaScript in this game, all you have to do is answer them correctly. 
+                   Keep playing until you get all the questions right. If you're ready to start the game, click the button below, and good luck!
+                </p>
+                <button id="start">Start!</button>
+        </header>
+        <nav>
+        </nav>
+        <main>
+            <img src="havefun.jpg" id="fun">
+            <div id="hide">
+                <p class="color" id="1"><b>Question 1:</b> How many math operators are in JavaScript?</p>
+                    <input class="color" id="q1" type="radio" value="4">4
+                    <input class="color" id="que1" type="radio" value="8">8
+                    <input class="color" id="1q" type="radio" value="6">6
+                <p class="color" id="2"><b>Question 2:</b> What are the JavaScript math operators? (type the symbols in the order of PEMDAS)</p>
+                    <input class="color" id="q2" type="text" value="Press button for hint! -->">
+                    <button id="hint">Click Me!</button>
+                    <br><br>
+                    <button id="confirm">Confirm</button>
+                <p class="color" id="3"><b>Question 3:</b> Can JavaScript modify your CSS styles?</p>
+                    <input class="color" id="q3" type="radio" value="Yes">Yes
+                    <input class="color" id="3q" type="radio" value="No">No
+                <p class="color" id="4"><b>Question 4:</b> Can JavaScript change/modify images?</p>
+                    <img src="javascript.png" id="js" class="img">
+                    <br>
+                    <input class="color" id="q4" type="radio" value="Yes">Yes
+                    <input class="color" id="4q" type="radio" value="No">No
+                <p class="color" id="5"><b>Question 5:</b> What does 10+10 in JavaScript equal? (concatenate)</p>
+                    <input class="color" id="q5" type="text" value="">
+                    <button id="+">Add</button>
+            </div>
+            <div id="hide2">
+                <p class="color" id="q6"><b>Question 6:</b> Which comparison operator signifies less than if a is greater than b?</p>
+                    <select id="op1">
+                        <option>...</option>
+                        <option>></option>
+                        <option><=</option>
+                        <option><</option>
+                        <option>>=</option>
+                    </select>
+                <p class="color" id="q7"><b>Question 7:</b> Which comparison operator signifies equals?</p>
+                    <select id="op2">
+                        <option>...</option>
+                        <option>+=</option>
+                        <option>!=</option>
+                        <option>==</option>
+                        <option>!==</option>
+                        <option>===</option>
+                    </select>
+                <p class="color" id="8"><b>Question 8:</b> If I "pop" the last element of the following array and "push" the bolded element of the following array.<br>
+                ["JavaScript", "Java", <b>"Python"</b>, "HTML", "CSS"]<br>
+                What should the new array technically look like? (there are two possible answers)
+                </p>
+                    <input class="color" id="q8" type="text" value=""><br><br>
+                <button id="check">Check</button>
+                <button id="help">Help</button>
+                <p id="arr"></p>
+                <p class="color" id="9"><b>Question 9:</b> Guess the programming language I'm thinking of (don't overthink it)</p>
+                    <input class="color" id="q9" type="text" value="">
+                    <br>
+                    <br>
+                <button id="accept">Accept</button><br><br>
+                <img src="thanks.png" id="thanks">
+            </div>
+        </main>
+        <footer><br><br>
+            Copyright &copy; 2022 Luis K. Gonzalez<br>
+		    <a href="mailto:lgonza39@stumail.jccc.edu">Contact Me</a>
+        </footer>
+    </div>
+    <script src="finalproject.js"></script>
+</body>
+</html>
